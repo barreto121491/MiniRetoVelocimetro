@@ -41,16 +41,16 @@ class Auto {
         actual = velocidad.rawValue
         
         switch velocidad {
-        case .Apagado:
+        case Velocidades.Apagado:
             velocidad = Velocidades.VelocidadBaja
             velocidadString = "Apagado"
-        case .VelocidadBaja:
+        case Velocidades.VelocidadBaja:
             velocidad = Velocidades.VelocidadMedia
             velocidadString = "Velocidad Baja"
-        case .VelocidadMedia:
+        case Velocidades.VelocidadMedia:
             velocidad = Velocidades.VelocidadAlta
             velocidadString = "Velocidad Media"
-        case .VelocidadAlta:
+        case Velocidades.VelocidadAlta:
             velocidad = Velocidades.Apagado
             velocidadString = "Velocidad Alta"
         }
@@ -67,16 +67,16 @@ class Auto {
         actual = velocidad.rawValue
         
         switch velocidad {
-        case .Apagado:
+        case Velocidades.Apagado:
             velocidad = Velocidades.VelocidadBaja
             velocidadString = "Apagado"
-        case .VelocidadBaja:
+        case Velocidades.VelocidadBaja:
             velocidad = Velocidades.VelocidadMedia
             velocidadString = "Velocidad Baja"
-        case .VelocidadMedia:
+        case Velocidades.VelocidadMedia:
             velocidad = Velocidades.VelocidadAlta
             velocidadString = "Velocidad Media"
-        case .VelocidadAlta:
+        case Velocidades.VelocidadAlta:
             velocidad = Velocidades.VelocidadMedia
             velocidadString = "Velocidad Alta"
         }
